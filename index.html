@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Laba 2</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+   
+    <style>
+        #check {
+            position: absolute;
+            background: rgb(230, 230, 187);
+            top: 250px;
+            left: 10px;
+        }
+
+        label{
+            padding-left: 10px;
+        }
+
+        input:checked+label{
+            background-color: red;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+    </div>
+
+    <div id="check">
+        <p><font color="blue">Что вы будете?</font></p>
+        <input type="checkbox" name="dva"/> <label>чай</label><br>
+        <input type="checkbox" name="dva"/> <label>кофе</label><br>
+       <input type="checkbox" checked name="dva"/>  <label>вода</label><br>
+    </div>
+</body>
+
+</html>
